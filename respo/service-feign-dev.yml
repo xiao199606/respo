@@ -12,7 +12,5 @@ spring:
     suffix: .html
   application:
     name: service-feign111
-  main:
-    allow-bean-definition-overriding: true
-
+  
 
