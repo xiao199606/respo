@@ -11,7 +11,7 @@ spring:
     prefix: classpath:/templates/
     suffix: .html
   application:
-    name: service-feign
+    name: service-feign111
   main:
     allow-bean-definition-overriding: true
 
