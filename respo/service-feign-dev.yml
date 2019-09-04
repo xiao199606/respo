@@ -11,6 +11,6 @@ spring:
     prefix: classpath:/templates/
     suffix: .html
   application:
-    name: service-feign111
+    name: service-feign
   
 
