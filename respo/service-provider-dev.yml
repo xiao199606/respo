@@ -5,7 +5,7 @@ server:
 spring:
   data:
     solr:
-      host: http://127.0.0.1:8099/solr/core1
+      host: http://127.0.0.1:8099/solr
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     password: 123
