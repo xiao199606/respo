@@ -3,6 +3,9 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8080/eureka/
+  instance:
+    lease-renewal-interval-in-seconds: 1
+    lease-expiration-duration-in-seconds: 2
 server:
   port: 8085
 spring:
@@ -16,3 +19,5 @@ zuul:
     api-b:
       path: /api-b/**
       serviceId: service-feign
+
+  
