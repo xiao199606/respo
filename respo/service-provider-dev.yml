@@ -6,11 +6,6 @@ spring:
   data:
     solr:
       host: http://127.0.0.1:8099/solr
-    elasticsearch:
-      repositories:
-        enabled: true
-      cluster-nodes: 127.0.0.1:9300
-      cluster-name: my-application
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     password: 123
