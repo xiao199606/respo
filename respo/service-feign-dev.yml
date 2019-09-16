@@ -7,16 +7,10 @@ server:
   port: 8084
 spring:
   redis:
-    lettuce:
-      pool:
-        max-active: 8
-        max-wait: -1
-        max-idle: 8
-        min-idle: 0
-    timeout: 20000
-    database: 0
-    cluster:
-      nodes: 127.0.0.1:6379
+    host: localhost
+    password: ''
+    port: 6379
+    timeout: 1000
   data:
     elasticsearch:
       repositories:
