@@ -16,7 +16,7 @@ spring:
     timeout: 20000
     database:
     cluster:
-      nodes: 192.168.70.129:6379,192.168.70.129:6380,192.168.70.129:6381
+      nodes: 127.0.0.1:6379
   data:
     elasticsearch:
       repositories:
