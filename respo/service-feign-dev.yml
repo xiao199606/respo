@@ -14,7 +14,7 @@ spring:
         max-idle: 8
         min-idle: 0
     timeout: 20000
-    database:
+    database: 0
     cluster:
       nodes: 127.0.0.1:6379
   data:
